@@ -1,3 +1,8 @@
+@font-face {
+    font-family: calc-font;
+    src: url(./fonts/digital-7-font/Digital7-rg1mL.ttf);
+}
+
 body {
     display: flex;
     background-color: #e0d3d3;
@@ -21,6 +26,7 @@ body {
 }
 
 .result-box {
+    font-family: calc-font;
     display: flex;
     padding: 0rem 0.5rem;
     align-items: flex-end;
